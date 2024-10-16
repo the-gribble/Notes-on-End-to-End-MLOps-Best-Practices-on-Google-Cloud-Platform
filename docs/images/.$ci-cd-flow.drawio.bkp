@@ -1,0 +1,65 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="dofKLcIUg2UAgY9BnVDF">
+    <mxGraphModel dx="586" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Google_Cloud_logo.svg/512px-Google_Cloud_logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="192" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-4" value="Continuous Integration - Continuous Delivery/Deployment (CI-CD)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-5" value="Continuous Integration" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="560" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-7" value="Model Training Code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="YkqpV-EoG2VHSqOERDZx-5">
+          <mxGeometry x="60" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YkqpV-EoG2VHSqOERDZx-5" source="YkqpV-EoG2VHSqOERDZx-9" target="YkqpV-EoG2VHSqOERDZx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-9" value="Automated Build" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="YkqpV-EoG2VHSqOERDZx-5">
+          <mxGeometry x="350" y="65" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YkqpV-EoG2VHSqOERDZx-5" source="YkqpV-EoG2VHSqOERDZx-11" target="YkqpV-EoG2VHSqOERDZx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-11" value="Source Code Repository (GitLab/GitHub)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="YkqpV-EoG2VHSqOERDZx-5">
+          <mxGeometry x="220" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-12" value="Automated Tests" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="YkqpV-EoG2VHSqOERDZx-5">
+          <mxGeometry x="450" y="65" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YkqpV-EoG2VHSqOERDZx-5" source="YkqpV-EoG2VHSqOERDZx-7" target="YkqpV-EoG2VHSqOERDZx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-6" value="Continuous Delivery/Deployment" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="430" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YkqpV-EoG2VHSqOERDZx-6" source="YkqpV-EoG2VHSqOERDZx-16" target="YkqpV-EoG2VHSqOERDZx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-16" value="Deployment" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="YkqpV-EoG2VHSqOERDZx-6">
+          <mxGeometry x="320" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-17" value="GCP Logs" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="YkqpV-EoG2VHSqOERDZx-6">
+          <mxGeometry x="190" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-18" value="Monitoring&amp;nbsp;&lt;div style=&quot;font-size: 8px;&quot;&gt;&amp;amp; Alerting&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.extract_or_measurement;whiteSpace=wrap;fontSize=8;" vertex="1" parent="YkqpV-EoG2VHSqOERDZx-6">
+          <mxGeometry x="60" y="70" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.78;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="YkqpV-EoG2VHSqOERDZx-6" source="YkqpV-EoG2VHSqOERDZx-17" target="YkqpV-EoG2VHSqOERDZx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YkqpV-EoG2VHSqOERDZx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YkqpV-EoG2VHSqOERDZx-12" target="YkqpV-EoG2VHSqOERDZx-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

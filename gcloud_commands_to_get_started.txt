@@ -1,0 +1,2 @@
+log gcloud cli into cloud account: gcloud auth login
+connect to project: gcloud config set project [project-id]

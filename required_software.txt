@@ -1,0 +1,6 @@
+gcloud cligcp accountpython >=3.6 + Pytest
+Docker Engine
+XGBoost - installed via pip via anaconda
+Scikit-Learn - installed via pip via anaconda
+Jupyter Notebooks - will use the one that comes with anaconda
+VS Code - installed
