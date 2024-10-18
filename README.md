@@ -1,5 +1,13 @@
 # Notes on End-to-End MLOps Best Practices on Google Cloud Platform (GCP)
 
+Please note; the primary source of content for this repository has come from a particular Udemy course, and then enriched upon with further content from Google's docs, and various other public sources.
+
+Please support the creator of the udemy course and purchase and go through the course yourself [HERE](https://www.udemy.com/course/machine-learning-ops-on-google-cloud-real-world-data-science/?couponCode=24T1MT101824).
+
+Additional content:
+ - [MLOps: Continuous delivery and automation pipelines in machine learning](https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning)
+ - [Best practices for implementing machine learning on Google Cloud](https://cloud.google.com/architecture/ml-on-gcp-best-practices)
+
 ## Table of Contents
 1. Introduction (This Readme)
 2. CI/CD using Cloud Build, Cloud Run, and Artifact & Container Registries

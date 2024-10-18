@@ -22,7 +22,7 @@ pip install flask / pip3 install flask
 More about flask [HERE](https://pypi.org/project/Flask/)
 
 Installing Flask
-![Installing flask](/docs/images/install-flask.png)
+![Installing flask](/docs/section_2/images/install-flask.png)
 
 ## PyTest
 
