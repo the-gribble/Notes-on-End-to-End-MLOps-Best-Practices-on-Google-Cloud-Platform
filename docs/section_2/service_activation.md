@@ -2,24 +2,24 @@
 
 This material assume you've created a new account in GCP and are taking advantage of the free trial. 
 
-![New GCP account with trial period](images/new-gcp-account-with-trial.png)
+![New GCP account with trial period](/docs/images/new-gcp-account-with-trial.png)
 
 ## Create a new project
 To activate services you'll need to first create a new project.
 
 Create new project
-![New GCP project](images/create-gcp-project.png)
+![New GCP project](/docs/images/create-gcp-project.png)
 
 Set new project name
-![Set new project name](images/set-new-project-name.png)
+![Set new project name](/docs/images/set-new-project-name.png)
 
 Once your new projec tis created, you'll see a notifaction about the event. 
 
-![New project created](images/new-project-created.png)
+![New project created](/docs/images/new-project-created.png)
 
 Click the "Select Project" button on the notification. You'll land on the following account dashboard.
 
-![New account dashboard](images/new-account-dashboard.png)
+![New account dashboard](/docs/images/new-account-dashboard.png)
 
 ## Activate required services
 
@@ -29,10 +29,10 @@ Log into your new GCP account and search for each of the below services and acti
  - Cloud Build
 
  Search for a service to activate
- ![Service search](images/service-search.png)
+ ![Service search](/docs/images/service-search.png)
 
  Enable the service you searched for.
- ![Enable service](images/enable-service.png)
+ ![Enable service](/docs/images/enable-service.png)
 
 ### A billing account is required to activate services
  The first time you activate a serices, you'll be asked to enable a billing account. You will need to add a bank/credit card to your account before you can proceed. 
@@ -42,7 +42,7 @@ Log into your new GCP account and search for each of the below services and acti
  The first line of the address input form is a google maps search field that will pop-up results for you to select. Be sure to properly select an address. The rest of the form will be filled in for you.
 
  Follow process to enable billing.
- ![Follow billing enablement process](images/enable-billing.png)
+ ![Follow billing enablement process](/docs/images/enable-billing.png)
 
  At the end of the billing setup process, after you've entered your bank card details, you'll be presented with a "Start Free" button. Click that to create your billing account.
 

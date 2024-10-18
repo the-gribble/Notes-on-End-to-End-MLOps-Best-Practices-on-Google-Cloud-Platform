@@ -2,8 +2,20 @@
 
 ## Table of Contents
 1. Introduction (This Readme)
-2. [Lab Preparation: Services to enable in GCP to perform the labs](/docs/service_activation.md)
-3. [Lab Preparation: Local development environment](/docs/local_environment_setup.md)
+2. CI/CD using Cloud Build, Cloud Run, and Artifact & Container Registries
+    1. [Lab Preparation: Services to enable in GCP to perform the labs](/docs/section_2/service_activation.md)
+    2. [Lab Preparation: Local development environment](/docs/section_2/local_environment_setup.md)
+    3. [Cloud Run for ML Models](/docs/section_2/cloud_run.md)
+3. Continuous Model Training Using Cloud Composer
+    1. 
+4. Vertex AI
+    1. Data Science & Machine Learning
+        1.
+    2. Kubeflow Pipines for ML Workflow Orchestration
+        1.
+    3. Hyperparameter Tuning Jobs, Explainability AI & Model Versioning
+        1.
+5. Genrative AI on Google Cloud (2024)
 
 ## Sections
  - Introduction to MLOps
