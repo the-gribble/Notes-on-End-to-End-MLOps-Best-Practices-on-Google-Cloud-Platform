@@ -1,8 +1,10 @@
+# To Run - in application_files folder run: pytest test_main.py
+
 import pytest
 from unittest.mock import patch,MagicMock
 from main import app, client as app_client
 
-@pytest.fixture
+@pytest.fixture # allows you to setup prerequisites for testing
 def client():
     with app.test_client() as client:
         yield client

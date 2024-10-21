@@ -77,6 +77,12 @@ The code would look like this: `uri = "gs://mlops-cloud-run-source/us-states.csv
 
 ![get-bucket-name-2](/docs/section_2/images/get-bucket-name-2.png)
 
+#### Ensure Requirements Are Met
+
+If you've not done so already, you'll need to install the required python packages. A list of packages needed can be found in the requirements file: /cloudrun-app/application-files/requirements.txt.
+
+To process the requirements file and have the packages installed, run the following from the /cloudrun-app/application-files folder: pip install -r requirements.txt
+
 #### Build Container
 We will start by running the commands in the file "docker-cloudrun-commands.sh" manually, line-by-line, to get famoiliar with them. 
 
@@ -222,3 +228,7 @@ You command should look similar to this:
 Note that we've changed the name slightly to differenciate the apps in Cloud Run.
 
 You can then go the the URL of the new cloud run instance to ingest 50m additional rows into you BigQuery table.
+
+### Testing Locally with Pytest
+
+To Run - in application_files folder run: `pytest test_main.py`
