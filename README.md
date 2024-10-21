@@ -14,8 +14,9 @@ Additional content:
     1. [Lab Preparation: Services to enable in GCP to perform the labs](/docs/section_2/service_activation.md)
     2. [Lab Preparation: Local development environment](/docs/section_2/local_environment_setup.md)
     3. [Cloud Run for ML Models](/docs/section_2/cloud_run.md)
-    4. [Cloud Build]()
-    
+    4. [Cloud Build](/docs/section_2/cloud_build.md)
+    5. [Classification Model Deployment - XGBoost](/docs/section_2/xgboost.md)
+
 3. Continuous Model Training Using Cloud Composer
     1. 
 4. Vertex AI
