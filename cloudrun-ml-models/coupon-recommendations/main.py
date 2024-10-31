@@ -48,16 +48,18 @@ def encode_features(x, n_components=27):
     x_encoded = hashing_ros_enc.transform(x.reset_index(drop=True))
     return x_encoded
 
+# Load from Local
 def _load_model():
     file_path = "artifacts/xgboost_coupon_recommendation.pkl"
     model = pickle.load(open(file_path, "rb"))
     return model
 
+# Load from GCS Bucket
 def load_model():
     storage_client = storage.Client()
-    bucket_name = "sid-ml-ops"
+    bucket_name = "mlops-best-practice-models"
     bucket = storage_client.get_bucket(bucket_name)
-    blob = bucket.blob("ml-artifacts/xgboost_coupon_recommendation.pkl")
+    blob = bucket.blob("xgboost_coupon_recommendation.pkl")
     blob.download_to_filename("xgboost_coupon_recommendation.pkl")
     model = pickle.load(open("xgboost_coupon_recommendation.pkl", "rb"))
     return model
